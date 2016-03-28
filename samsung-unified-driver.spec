@@ -19,6 +19,8 @@ Summary:	Unified Linux Driver for Samsung printers and scanners
 Url:		http://www.samsung.com
 Source0:	http://downloadcenter.samsung.com/content/DR/201512/20151210091120064/uld_v%{version}_00.99.tar.gz
 Source1:	xerox_mfp-smfp.conf
+Source100:	%{name}.rpmlintrc
+ExclusiveArch:  %{ix86} x86_64
 
 %description
 Unified Linux Driver for Samsung printers and scanners.
